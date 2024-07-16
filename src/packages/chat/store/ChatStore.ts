@@ -82,7 +82,7 @@ class ChatStore {
       messagesInput.unshift({
         role: 'system',
         content:
-          'I want you to act as an AI assisted legal counsel. I am a legal attorney and your role is to answer any questions I have or provide any insights you may have.',
+          'I want you to act as an AI assistant for a general chatbot. Your role is to answer any questions I have.',
       });
 
       this.messages.push(
